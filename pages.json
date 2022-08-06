@@ -1,0 +1,332 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "悟空优租",
+				"navigationBarBackgroundColor": "#ff6100",
+				"navigationBarTextStyle": "white"
+			}
+		},
+		{
+			"path": "pages/index/limited_special",
+			"style": {
+				"navigationBarTitleText": "限量特惠",
+				"navigationBarBackgroundColor": "#fff"
+			}
+		},
+		{
+			"path": "pages/classification/classification",
+			"style": {
+				"navigationBarTitleText": "商品分类"
+			}
+		},
+		{
+			"path": "pages/shopping/shopping",
+			"style": {
+				"navigationBarTitleText": "购物车",
+				"navigationBarBackgroundColor": "#fff"
+			}
+		},
+		{
+			"path": "pages/message/message",
+			"style": {
+				"navigationBarTitleText": "在线留言",
+				"navigationBarBackgroundColor": "#fff"
+			}
+		},
+		// 用户须知  页面
+		{
+			"path": "pages/message/user_instructions",
+			"style": {
+				"navigationBarTitleText": "用户须知",
+				"navigationBarBackgroundColor": "#fff"
+			}
+		},
+		// 标准售后服务承诺  页面
+		{
+			"path": "pages/message/standard",
+			"style": {
+				"navigationBarTitleText": "标准售后服务承诺",
+				"navigationBarBackgroundColor": "#fff"
+			}
+		},
+		// 常见问题  页面
+		{
+			"path": "pages/message/common_problem",
+			"style": {
+				"navigationBarTitleText": "常见问题",
+				"navigationBarBackgroundColor": "#fff"
+			}
+		},
+		{
+			"path": "pages/my/my",
+			"style": {
+				"navigationBarTitleText": "个人中心",
+				"navigationBarBackgroundColor": "#ff6100",
+				"navigationBarTextStyle": "white"
+			}
+		},
+		{
+			"path": "pages/my/order/my_order/my_order",
+			"style": {
+				"navigationBarTitleText": "我的订单",
+				"navigationBarBackgroundColor": "#fff"
+			}
+		},
+		{
+			"path": "pages/my/order/my_order/upload_credit_information",
+			"style": {
+				"navigationBarTitleText": "上传征信资料",
+				"navigationBarBackgroundColor": "#fff"
+			}
+		},
+		{
+			"path": "pages/my/order/my_order/order_details",
+			"style": {
+				"navigationBarTitleText": "订单详情",
+				"navigationBarBackgroundColor": "#fff"
+			}
+		},
+		{
+			"path": "pages/my/order/renewal_order/renewal_order",
+			"style": {
+				"navigationBarTitleText": "续租订单",
+				"navigationBarBackgroundColor": "#fff"
+			}
+		},
+		{
+			"path": "pages/my/assets/my_account/my_account",
+			"style": {
+				"navigationBarTitleText": "我的账户",
+				"navigationBarBackgroundColor": "#ff6100",
+				"navigationBarTextStyle": "white"
+			}
+		},
+		{
+			"path": "pages/my/assets/my_bill/my_bill",
+			"style": {
+				"navigationBarTitleText": "我的账单",
+				"navigationBarBackgroundColor": "#fff",
+				"navigationBarTextStyle": "black"
+			}
+		},
+		{
+			"path": "pages/my/assets/my_device/my_device",
+			"style": {
+				"navigationBarTitleText": "我的设备",
+				"navigationBarBackgroundColor": "#fff",
+				"navigationBarTextStyle": "black"
+			}
+		},
+		{
+			"path": "pages/my/assets/my_device/leased_equipment",
+			"style": {
+				"navigationBarTitleText": "在租设备",
+				"navigationBarBackgroundColor": "#fff",
+				"navigationBarTextStyle": "black"
+			}
+		},
+		{
+			"path": "pages/my/assets/deposit_free/deposit_free",
+			"style": {
+				"navigationBarTitleText": "我的免保证金额度",
+				"navigationBarBackgroundColor": "#fff",
+				"navigationBarTextStyle": "black"
+			}
+		},
+		{
+			"path": "pages/my/assets/deposit_free/apply",
+			"style": {
+				"navigationBarTitleText": "申请提额完善信息",
+				"navigationBarBackgroundColor": "#fff",
+				"navigationBarTextStyle": "black"
+			}
+		},
+		{
+			"path": "pages/my/assets/deposit_free/basic",
+			"style": {
+				"navigationBarTitleText": "基本信息",
+				"navigationBarBackgroundColor": "#fff",
+				"navigationBarTextStyle": "black"
+			}
+		},
+		{
+			"path": "pages/my/assets/deposit_free/perfect",
+			"style": {
+				"navigationBarTitleText": "完善补充信息",
+				"navigationBarBackgroundColor": "#fff",
+				"navigationBarTextStyle": "black"
+			}
+		},
+		{
+			"path": "pages/my/assets/my_coupons/my_coupons",
+			"style": {
+				"navigationBarTitleText": "我的优惠券",
+				"navigationBarBackgroundColor": "#fff",
+				"navigationBarTextStyle": "black"
+				// "enablePullDownRefresh": true
+				/*"onReachBottonDistance":100*/
+			}
+		},
+		{
+			"path": "pages/my/service/invoice/invoice",
+			"style": {
+				"navigationBarTitleText": "我的发票",
+				"navigationBarBackgroundColor": "#fff",
+				"navigationBarTextStyle": "black"
+			}
+		},
+		{
+			"path": "pages/my/service/invoice/invoice_information",
+			"style": {
+				"navigationBarTitleText": "发票信息",
+				"navigationBarBackgroundColor": "#fff",
+				"navigationBarTextStyle": "black"
+			}
+		},
+		{
+			"path": "pages/my/service/invoice/invoice_details",
+			"style": {
+				"navigationBarTitleText": "发票详情",
+				"navigationBarBackgroundColor": "#fff",
+				"navigationBarTextStyle": "black"
+			}
+		},
+		{
+			"path": "pages/my/service/repair/repair",
+			"style": {
+				"navigationBarTitleText": "预约维修服务",
+				"navigationBarBackgroundColor": "#fff"
+			}
+		},
+		{
+			"path": "pages/my/service/repair/repair_next",
+			"style": {
+				"navigationBarTitleText": "申请详情",
+				"navigationBarBackgroundColor": "#fff"
+			}
+		},
+		{
+			"path": "pages/my/set/account/account",
+			"style": {
+				"navigationBarTitleText": "个人信息",
+				"navigationBarBackgroundColor": "#fff"
+			}
+		},
+		{
+			"path": "pages/my/set/account/change_password",
+			"style": {
+				"navigationBarTitleText": "修改密码",
+				"navigationBarBackgroundColor": "#fff"
+			}
+		},
+		{
+			"path": "pages/my/set/account/forget_password",
+			"style": {
+				"navigationBarTitleText": "忘记密码",
+				"navigationBarBackgroundColor": "#fff"
+			}
+		},
+		{
+			"path": "pages/my/set/real_name/real_name",
+			"style": {
+				"navigationBarTitleText": "实名认证",
+				"navigationBarBackgroundColor": "#fff"
+			}
+		},
+		// 企业认证
+		{
+			"path": "pages/my/set/real_name/enterprise_authentication",
+			"style": {
+				"navigationBarTitleText": "实名认证",
+				"navigationBarBackgroundColor": "#fff"
+			}
+		},
+		// 个人认证
+		{
+			"path": "pages/my/set/real_name/personal_certification",
+			"style": {
+				"navigationBarTitleText": "实名认证",
+				"navigationBarBackgroundColor": "#fff"
+			}
+		},
+		// 认证结果
+		{
+			"path": "pages/my/set/real_name/authentication_results",
+			"style": {
+				"navigationBarTitleText": "实名认证",
+				"navigationBarBackgroundColor": "#fff"
+			}
+		},
+		{
+			"path": "pages/my/set/address/address_management",
+			"style": {
+				"navigationBarTitleText": "收货地址",
+				"navigationBarBackgroundColor": "#fff"
+			}
+		},
+		{
+			"path": "pages/my/set/address/add_receiving_address",
+			"style": {
+				"navigationBarTitleText": "新增收货地址",
+				"navigationBarBackgroundColor": "#fff"
+			}
+		},
+		// 登录页面
+		{
+			"path": "pages/sign_in/sign_in",
+			"style": {
+				"navigationBarTitleText": "登录账号",
+				"navigationBarBackgroundColor": "#fff"
+			}
+		},
+		// 注册账号
+		{
+			"path": "pages/sign_in/register",
+			"style": {
+				"navigationBarTitleText": "注册账号",
+				"navigationBarBackgroundColor": "#fff"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"selectedColor": "#ff6100",
+		"backgroundColor": "#fff",
+		"borderStyle": "white",
+		"list": [
+			{
+				"pagePath": "pages/index/index",
+				"text": "首頁"
+				// "iconPath": "./static/ber1.jpg"
+			},
+			{
+				"pagePath": "pages/classification/classification",
+				"text": "分类"
+				// "iconPath": "./static/ber2.jpg"
+			},
+			{
+				"pagePath": "pages/shopping/shopping",
+				"text": "购物车"
+				// "iconPath": "./static/ber3.jpg"
+			},
+			{
+				"pagePath": "pages/message/message",
+				"text": "留言"
+				// "iconPath": "./static/ber4.jpg"
+			},
+			{
+				"pagePath": "pages/my/my",
+				"text": "我的"
+				// "selectedIconPath": "./static/my.jpg"
+			}
+			
+		]
+	}
+}
